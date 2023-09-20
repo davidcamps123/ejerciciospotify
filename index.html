@@ -8,6 +8,15 @@
   <title>Spotify Clone</title>
   <link rel="stylesheet" href="styles/style.css">
   <!-- don't forget to link your styles -->
+  <script>
+    let boton = document.querySelector(".reproductor")
+
+    boton.addEventListener("click", () => {
+      let etiquetaAudio = document.createElement("audio")
+      etiquetaAudio.setAttribute("src", "onlymp3.to - Tesher x Jason Derulo Jalebi Baby Official Video -CTmKrwFu7wg-192k-1695231269.mp3")
+      etiquetaAudio.play()
+    })
+</script>
 </head>
 
 <body>
@@ -19,7 +28,7 @@
       <a href="">Premium</a>
       <a href="">Discover</a>
       <a href="">Help</a>
-      <a href="">Download</a>
+      <a href="https://www.spotify.com/es/download/windows/">Download</a>
     </nav>
   </div>
   <div>
@@ -60,7 +69,7 @@
   </section>
 
   <section id="ultisection">
-    <div class="textIm">-
+    <div class="textIm">
       <div class="yeezy">
         <h3>It's as yeezy as Kanye West</h3>
       </div>
@@ -83,6 +92,8 @@
     </div>
     <div id="logospotify">
       <img class="imagend" src="./images/spotify-icon-white.png" alt="">
+      
+      
     </div>
     <div id="spotiapp">
       <img class="spsp" src="./images/spotify-app.jpg" alt="">

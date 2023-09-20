@@ -40,8 +40,13 @@ img {
     height: 107px;
 }
 
-.spsp {}
-
+.spsp {
+    width: 250px;
+    height: 450px;
+}
+#spotiapp{
+    margin-left: 70px;
+}
 a {
     text-decoration: none;
     color: #1A1A1A;
