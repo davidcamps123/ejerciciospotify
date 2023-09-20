@@ -6,21 +6,33 @@ Green: #00B172
 White: #FFF
 
 */
-
+body{
+    margin: 0;
+}
 nav {
-    margin: 10px;
+    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 10px;
+    background-color: #FFF;
 }
-
+#diva{
+    margin-right: 15px;
+}
+#iconspoti{
+    margin-left: 10px;
+}
 img {
     width: 150px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #1A1A1A;  
     margin-left: 15px;
     font-size: 25px;
 }
@@ -29,14 +41,14 @@ h2{
     font-size: 70px;
     font-weight: bold;
 }
-p{
+.infosp{
     font-size: 30px;
     margin: 0;
 }
-h2,p{
-    color: white;
+h2,.infosp{
+    color: #FFF;
     
-    
+  
 }
 #bckgimg {
     background-image: url(../images/landing.jpg);
@@ -50,21 +62,21 @@ h2,p{
 
 }
 .de{
-    color: black;
+    color: #1A1A1A;  
     text-align: center;
     margin-bottom: 15px;
     font-size: 35px;
 }
 .de1{
-    color: green;
+    color: #00B172;
     font-weight: bold;
 }
 .lso{
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    
     margin: 10px;
-    height: 300px;
+    height: 250px;
     align-items: center;
     justify-content: center;
     align-content: space-around;
@@ -72,6 +84,26 @@ h2,p{
 }
 #mefd{
     display: flex; 
-    border: 1px solid black;   
+  
+    
+}
+.fred{
+    font-size: 18px;
+    padding-top: 25px;
+}
+.frede{
+    padding-top: 15px;
+}
+
+#ultisection{
+    background-color: #00B172;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+#spotiapp{
+    width: auto;
+   
     
 }
